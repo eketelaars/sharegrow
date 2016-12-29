@@ -4,6 +4,13 @@
   <nav id="nav">
     <ul>
       <li class="special">
+        {% if site.lang == "fr" %}
+          {% capture link1 %}{{ site.baseurl_root }}{{ page.url}}{% endcapture %}
+          <a href="{{ link1 }}" >{% t global.english %}</a>
+        {% elsif site.lang == "en" %}
+          {% capture link2 %}{{ site.baseurl_root }}fr{{ page.url  }}{% endcapture %}
+          <a href="{{ link2 }}" >{% t global.french %}</a>
+        {% endif %}
         <a href="#menu" class="menuToggle"><span>Menu</span></a>
         <div id="menu">
           <ul>
