@@ -5,16 +5,19 @@
 title: sharegrowblog
 description: |
   for inspiration, tips and true stories about job hunting
-owner: Elleke Ketelaars # or company name
-first_published: 2016 # if migrating another site, the year of your first publish
+owner: Elleke Ketelaars
+first_published: 2016
 email: elleke.ketelaars@gmail.com
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://www.sharegrow.eu" # the base hostname & protocol for your site
+baseurl: ""
+url: "http://www.sharegrow.eu"
 social:
   github: https://github.com/eketelaars
   linkedin-square: https://linkedin.com/in/ellekeketelaars
 
 # Build settings
 markdown: kramdown
-#sass:
-#  style: compressed
+languages: ["en", "fr"]
+
+# Dependencies
+gems:
+  - jekyll-multiple-languages-plugin

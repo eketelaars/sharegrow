@@ -1,0 +1,11 @@
+global:
+  english: English
+  french: Français
+pages:
+  about: "À propos"
+titles:
+  about: "À propos"
+subtitles:
+  about: "Elleke Ketelaars"
+quotes:
+  about: "\"Seul, on marche plus vite; à deux, on marche plus loin\""
