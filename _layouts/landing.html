@@ -9,6 +9,8 @@
 
   {% include head.html %}
 
+  <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
+
   <body class="landing">
 
     <!-- Page Wrapper -->

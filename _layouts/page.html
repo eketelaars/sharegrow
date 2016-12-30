@@ -7,6 +7,8 @@ layout: default
 </style>
 {% endif %}
 
+<title>{% if page.title %}{% t page.title %}{% else %}{{ site.title | escape }}{% endif %}</title>
+
 <article id="main">
 
   <header>

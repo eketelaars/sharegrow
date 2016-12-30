@@ -4,6 +4,7 @@
   <nav id="nav">
     <ul>
       <li class="special">
+        <!-- Add button to switch to the other language -->
         {% if site.lang == "fr" %}
           {% capture link1 %}{{ site.baseurl_root }}{{ page.url}}{% endcapture %}
           <a href="{{ link1 }}" >{% t global.english %}</a>
@@ -21,7 +22,6 @@
             {% endif %}
             {% endfor %}
             <li><a href="#">Sign Up</a></li>
-            <li><a href="#">Log In</a></li>
             <li><a href="{{ "/feed.xml" | prepend: site.baseurl }}"
                    class="icon fa-feed"> RSS Feed</a></li>
           </ul>

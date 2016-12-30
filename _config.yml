@@ -16,6 +16,9 @@ social:
 
 # Build settings
 markdown: kramdown
+
+# Multi-language settings
+# (https://github.com/Anthony-Gaudino/jekyll-multiple-languages-plugin)
 languages: ["en", "fr"]
 
 # Dependencies
