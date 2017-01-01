@@ -101,7 +101,6 @@ $baseurl: '{{ site.baseurl }}/images';
 		letter-spacing: _size(letter-spacing-alt);
 		line-height: 1em;
 		margin: 0 0 (_size(element-margin) * 0.5) 0;
-		text-transform: uppercase;
 
 		a {
 			color: inherit;
@@ -1428,7 +1427,6 @@ $baseurl: '{{ site.baseurl }}/images';
 						font-size: 0.8em;
 						letter-spacing: _size(letter-spacing-alt);
 						padding: 0 1.5em;
-						text-transform: uppercase;
 
 						&.menuToggle {
 							outline: 0;
@@ -1523,7 +1521,6 @@ $baseurl: '{{ site.baseurl }}/images';
 
 		p {
 			letter-spacing: _size(letter-spacing-alt);
-			text-transform: uppercase;
 
 			a {
 				color: inherit;
@@ -1547,7 +1544,6 @@ $baseurl: '{{ site.baseurl }}/images';
 			padding-left: _size(letter-spacing-alt);
 			position: absolute;
 			text-align: center;
-			text-transform: uppercase;
 			width: 16em;
 			z-index: 1;
 
@@ -1689,7 +1685,6 @@ $baseurl: '{{ site.baseurl }}/images';
 			p {
 				color: inherit;
 				letter-spacing: _size(letter-spacing-alt);
-				text-transform: uppercase;
 				top: 0;
 
 				a {
@@ -1753,7 +1748,6 @@ $baseurl: '{{ site.baseurl }}/images';
 			letter-spacing: _size(letter-spacing-alt);
 			list-style: none;
 			padding: 0;
-			text-transform: uppercase;
 
 			li {
 				border-left: solid 1px _palette(fg-light);
