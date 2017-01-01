@@ -10,29 +10,18 @@
 	<a href="#one" class="more scrolly">Learn More</a>
 </section>
 
-<!-- Blog posts -->
 <section id="one" class="wrapper alt style2">
+	<!-- Blog posts -->
+	{% for post in site.data.index %}
 	<section class="spotlight">
-		<div class="image"><img src="images/posts/2016-11-01-Denise.jpg" alt="" /></div><div class="content">
-			<h2><a href="2016/11/01/Denise.html">Stretching her possibilities in Paris – Denise</a>
+		<div class="image"><img src="{{ post.img }}" alt="" /></div><div class="content">
+			<h2><a href="{{ post.href }}">{{ post.title_en }}</a>
 			</h2>
-			<p>I got the chance to interview Denise who moved from the Netherlands to Paris a couple of years ago. We talked about the challenges of job-hunting in the city of lights.</p>
+			<p>{{ post.text_en }}</p>
 		</div>
 	</section>
-	<section class="spotlight">
-		<div class="image"><img src="images/posts/2016-12-21-Jolien.png" alt="" /></div><div class="content">
-			<h2><a href="2016/12/21/Jolien.html">London</a>
-			</h2>
-			<p>Introduction</p>
-		</div>
-	</section>
-	<section class="spotlight">
-		<div class="image"><img src="images/posts/2016-12-25-Hester.jpg" alt="" /></div><div class="content">
-			<h2><a href="2016/12/25/Hester.html">A medical career</a>
-			</h2>
-			<p>Introduction</p>
-		</div>
-	</section>
+	{% endfor %}
+	<!-- Newsletter -->
 	<section class="spotlight">
 		<div class="image"><img src="images/banner-3.jpg" alt="" /></div><div class="content">
 			<h2>Subscribe to my newsletter
