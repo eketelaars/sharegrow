@@ -16,6 +16,12 @@
 
       {% include header.html %}
 
+      {% if page.background %}
+      <style>
+        body { background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url({{ site.baseurl }}/{{ page.background }}); }
+      </style>
+      {% endif %}
+
       {{ content }}
 
       {% include footer.html %}

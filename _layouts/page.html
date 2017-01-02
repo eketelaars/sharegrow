@@ -1,11 +1,6 @@
 ---
 layout: default
 ---
-{% if page.background %}
-<style>
-  body { background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url({{ site.baseurl }}/{{ page.background }}); }
-</style>
-{% endif %}
 
 <title>{% if page.title %}{% t page.title %}{% else %}{{ site.title | escape }}{% endif %}</title>
 

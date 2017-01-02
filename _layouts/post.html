@@ -2,14 +2,6 @@
 layout: default
 ---
 
-<!-- Modify the style defined in main.css: -->
-<!-- include a background image, whose path is specified in the Jekyll-header -->
-{% if page.background %}
-<style>
-  body { background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url({{ site.baseurl }}/{{ page.background }}); }
-</style>
-{% endif %}
-
 <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
 
 <article id="main">
