@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>sharegrowblog</title>
+    <description>for inspiration, tips and true stories about job hunting
+</description>
+    <link>http://www.sharegrow.eu/fr/</link>
+    <atom:link href="http://www.sharegrow.eu/fr/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Thu, 05 Jan 2017 13:28:01 +0100</pubDate>
+    <lastBuildDate>Thu, 05 Jan 2017 13:28:01 +0100</lastBuildDate>
+    <generator>Jekyll v3.3.1</generator>
+    
+      <item>
+        <title>Sous construction</title>
+        <description>&lt;p&gt;Sous construction&lt;/p&gt;
+</description>
+        <pubDate>Sun, 25 Dec 2016 00:00:00 +0100</pubDate>
+        <link>http://www.sharegrow.eu/fr/2016/12/25/Hester.html</link>
+        <guid isPermaLink="true">http://www.sharegrow.eu/fr/2016/12/25/Hester.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Sous construction</title>
+        <description>&lt;p&gt;Sous construction&lt;/p&gt;
+</description>
+        <pubDate>Wed, 21 Dec 2016 00:00:00 +0100</pubDate>
+        <link>http://www.sharegrow.eu/fr/2016/12/21/Jolien.html</link>
+        <guid isPermaLink="true">http://www.sharegrow.eu/fr/2016/12/21/Jolien.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Sous construction</title>
+        <description>&lt;p&gt;Sous construction&lt;/p&gt;
+</description>
+        <pubDate>Tue, 01 Nov 2016 00:00:00 +0100</pubDate>
+        <link>http://www.sharegrow.eu/fr/2016/11/01/Denise.html</link>
+        <guid isPermaLink="true">http://www.sharegrow.eu/fr/2016/11/01/Denise.html</guid>
+        
+        
+      </item>
+    
+  </channel>
+</rss>
