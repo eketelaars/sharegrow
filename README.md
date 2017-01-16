@@ -79,11 +79,23 @@ to quit press `ctrl-c`
 ```bash
 cd /data/documents/sharegrow
 git add -A   # (only use -A to commit all changes)
+git commit -m "type your message here"
+git push 
 ```
 
 to view the status use `git status`
 
+## Publish site
 
+```bash 
+cd /data/documents/sharegrow
+jekyll build 
+cp -r _site/* _gh-pages/ 
+cd _gh-pages
+git add -A   # (only use -A to commit all changes)
+git commit -m "type your message here"
+git push 
+```
 # Source
 
 ## Theme
