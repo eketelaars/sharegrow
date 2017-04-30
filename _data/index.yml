@@ -1,17 +1,24 @@
-- href:     2016/11/01/Denise.html
-  img:      images/posts/2016-11-01-Denise.jpg
-  title_en: Stretching her possibilities in Paris – Denise
+- href:     images/Living_in_Switzerland.pdf
+  img:      images/Living_in_Switzerland-banner.jpg
+  title_en: Living in Switzerland
   text_en:  |
-    I got the chance to interview Denise who moved from the Netherlands to
-    Paris a couple of years ago. We talked about the challenges of
-    job-hunting in the city of lights.
+    The story behind chocolate and cheese fondue 
   title_fr: |
-    Etendre ses possibilités à Paris - Denise
+    Vivre en Suisse
   text_fr:  |
-    J'ai eu la chance d'interviewer Denise qui a déménagé des Pays-Bas à Paris
-    il ya quelques années. Nous avons parlé des défis de la recherche d'emploi
-    dans la ville des lumières.
+    L'histoire derrière le chocolat et le fondue fromage (en anglais)
 
+- href:     2016/12/25/Hester.html
+  img:      images/posts/2016-12-25-Hester.jpg
+  title_en: A career in medical research - Hester
+  text_en:  |
+    Let's discover how Hester succeeded in creating opportunities to combine
+    the world of academic research with her ultimate goal: becoming a psychiatrist.
+  title_fr: |
+    Une carrière dans la recherche médicale - Hester
+  text_fr:  |
+    Découvrez comment Hester a réussi à créer des opportunités pour combiner
+    le monde de la recherche universitaire avec son but ultime: devenir psychiatre.
 
 - href:     2016/12/21/Jolien.html
   img:      images/posts/2016-12-21-Jolien.png
@@ -28,15 +35,18 @@
     extrêmement concurrentiel. Sur travailler dans un bar et enfin réussir à
     faire ce qu'elle aime le plus.
 
-- href:     2016/12/25/Hester.html
-  img:      images/posts/2016-12-25-Hester.jpg
-  title_en: A career in medical research - Hester
+- href:     2016/11/01/Denise.html
+  img:      images/posts/2016-11-01-Denise.jpg
+  title_en: Stretching her possibilities in Paris – Denise
   text_en:  |
-    Let's discover how Hester succeeded in creating opportunities to combine
-    the world of academic research with her ultimate goal: becoming a psychiatrist.
+    I got the chance to interview Denise who moved from the Netherlands to
+    Paris a couple of years ago. We talked about the challenges of
+    job-hunting in the city of lights.
   title_fr: |
-    Une carrière dans la recherche médicale - Hester
+    Etendre ses possibilités à Paris - Denise
   text_fr:  |
-    Découvrez comment Hester a réussi à créer des opportunités pour combiner
-    le monde de la recherche universitaire avec son but ultime: devenir psychiatre.
+    J'ai eu la chance d'interviewer Denise qui a déménagé des Pays-Bas à Paris
+    il ya quelques années. Nous avons parlé des défis de la recherche d'emploi
+    dans la ville des lumières.
+
 
